@@ -13,4 +13,4 @@ Since that time I'm sure the data format as well as the connection protocols hav
 This was my first attempt at GUI programming. I had just learned about objects and data structures
 from a class I took at NEIU, and decided to put them to work. I bought a book about Qt3 and went to work.
 
-Two things I'm particulary proud of are the custom widget to reorder the players, and the custom xmlreader I wrote in just a weekend. (For some reason I wasn't happy with any stock xml libraries).
+Two things I'm particulary proud of are the custom widget to reorder the players (found in positionDialog.h), and the custom xmlreader I wrote in just a weekend. (For some reason I wasn't happy with any stock xml libraries).
