@@ -1,0 +1,21 @@
+add error classes to hdm
+- enum NoErr, XmlErr, SqlErr
+make hdm a singleton ?
+make all sql::exec() calls through hdm, so hdm will return error value
+have HDM::createconnection() return an error value,
+- so that it can tell if the server is started, or if the 
+	user is unkown, which means call the first-time
+	wizard.
+figure out if last_player_id belongs in hdm.
+figure out if create_tmp_table is still needed in hdm.
+- might be nice, in order to factor out code
+	usable for other parsers.
+
+have xmldownload not create files, but just pass info as streams.
+add error handling to xmldownload
+
+check if player is a coach
+add possibility to exclude coach from lineups
+
+Ability to edit/delete positions
+Change positionDialog to use sliders ?
