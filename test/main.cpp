@@ -12,8 +12,8 @@ int main(int argc, char *argv[])
 	/*PasswordDialog * pDlg = new PasswordDialog();
 	if(pDlg->exec() == QDialog::Accepted)
 	{
-		//d.setloginName("zonker");
-		//d.setloginPassword("lee337");
+		//d.setloginName("xxxxx");
+		//d.setloginPassword("xxxxxx");
 		d.setloginName(pDlg->password());
 		d.setloginPassword(pDlg->loginname());
 //		std::cout << "executing downloader" << std::endl;
